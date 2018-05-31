@@ -1,0 +1,186 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Arvo', serif;
+  background-color: #eeeeee;
+}
+
+h1{
+  margin: 20px 20px 30px 20px;
+  text-align: center;
+}
+
+.img_corp, .text{
+  width: 200px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 300px;
+  min-width: 300px;
+}
+
+        /* ===== ! ===== */
+
+.cercle_1{
+  position: relative;
+  top: -420px;
+  left: -5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_1{
+  position: absolute;
+  top: -50px;
+  left: 200px;
+  display:none;
+}
+
+.cercle_1:hover{
+  background: red;
+}
+
+.cercle_1:hover #cercle_1{
+  display: block;
+}
+
+        /* ========== */
+
+.cercle_2{
+  position: relative;
+  top: -350px;
+  left: -10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_2{
+  display: none;
+  position: absolute;
+  top: -170px;
+  left: 200px;
+}
+
+.cercle_2:hover{
+  background: red;
+}
+
+.cercle_2:hover #cercle_2{
+  display: block;
+}
+
+        /* ========== */
+
+.cercle_3{
+  position: relative;
+  top: -420px;
+  left: 100px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_3{
+  display: none;
+  position: absolute;
+  top: -150px;
+  left: 90px;
+}
+
+.cercle_3:hover{
+  background: red;
+}
+
+.cercle_3:hover #cercle_3{
+  display: block;
+}
+
+        /* ========== */
+
+.cercle_4{
+  position: relative;
+  top: -410px;
+  left: 80px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_4{
+  display: none;
+  position: absolute;
+  top: -210px;
+  left: 110px;
+
+}
+
+.cercle_4:hover{
+  background: red
+}
+
+.cercle_4:hover #cercle_4{
+  display: block;
+}
+
+        /* ========== */
+
+.cercle_5{
+  position: relative;
+  top: -270px;
+  left: 65px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_5{
+  display: none;
+  position: absolute;
+  top: -400px;
+  left: 125px;
+}
+
+.cercle_5:hover{
+  background: red
+}
+
+.cercle_5:hover #cercle_5{
+  display: block;
+}
+
+        /* ========== */
+
+.cercle_6{
+  position: relative;
+  top: -400px;
+  left: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cercle_6{
+  display: none;
+  position: absolute;
+  top: -320px;
+  left: 170px;
+}
+
+.cercle_6:hover{
+  background: red;
+}
+
+.cercle_6:hover #cercle_6{
+  display: block;
+}
